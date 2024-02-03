@@ -1,22 +1,50 @@
-let number = 1;
+// // -----------------sumession--------------
 
-let sum = 0;
+// let number = 1;
 
-while(number<10){
-    sum = sum + number;
-    console.log(sum);
+// let sum = 0;
 
-    number++;
+// while(number<10){
+//     sum = sum + number;
+//     console.log(sum);
 
-
-
-}
+//     number++;
 
 
-let num = 1;
-while(num <= 10){
-    if(num % 2 === 0){
-        console.log("Even Number: ", num);
+
+// }
+
+// // ----------------------even number-------------------------
+// let num = 1;
+// while(num <= 10){
+//     if(num % 2 === 0){
+//         console.log("Even Number: ", num);
+//     }
+//     num++;
+// }
+
+// for(let i = 0; i<=20; i+=2){
+//     console.log("Number:", i);
+// }
+// for(let i = 1; i<=20; i+=2){
+//     console.log("Number:", i);
+// }
+
+
+// // ----------summesion----------
+
+// let a = 0;
+// for(i = 11; i<=20; i++){
+//     a = a + i;
+    
+// }
+// console.log("Sum: ", a);
+
+const array = [1, 2, 3, 4, 5, 6, 7];
+
+  for (let i = 1; i < array.length; i++) {
+    if (i == 5) {
+     continue;
     }
-    num++;
-}
+    console.log(array[i]);
+   }
